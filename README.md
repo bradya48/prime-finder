@@ -1,2 +1,2 @@
-# prime-finder
-script to find and print out prime numbers
+# python-prime-finder
+A Python script that finds and prints prime numbers.
