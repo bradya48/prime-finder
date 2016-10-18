@@ -1,4 +1,4 @@
-prime_list = [] #initialize list that contains primes
+prime_list = [] # initialize list that contains primes
 
 def isprime(x):
     for number in prime_list:
@@ -16,5 +16,5 @@ print 2
 
 for i in range(3,max_search):
     if isprime(i):
-        prime_list.append(i) #if isprime returns True, add i to list
+        prime_list.append(i) # if isprime returns True, add i to list
         print i
