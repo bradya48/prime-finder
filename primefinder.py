@@ -16,10 +16,12 @@ start_time = time.time() # time at start of loop
 
 prime_list = [] # initialize list that contains primes
 prime_list.append(2) # start by initializing 2 as prime number
+print 2
     
 
 for i in range(3,max_search + 1,2):
     if isprime(i):
         prime_list.append(i) # if i is prime, add i to list
+        print i
 
-print 'Runtime: ' + str((time.time() - start_time))
+print 'Runtime: ' + str((time.time() - start_time)) # significantly if not printing results
