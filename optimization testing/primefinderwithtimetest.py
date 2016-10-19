@@ -50,7 +50,6 @@ prime_check = [2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 6
 prime_list = []
 
 prime_list.append(2)
-print 2
 
 for i in range(3,101):
     if isprime(i):
