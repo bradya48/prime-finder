@@ -24,4 +24,4 @@ for i in range(3,max_search + 1,2):
         prime_list.append(i) # if i is prime, add i to list
         print i
 
-print 'Runtime: ' + str((time.time() - start_time)) # significantly if not printing results
+print 'Runtime: ' + str((time.time() - start_time))
